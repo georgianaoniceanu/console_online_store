@@ -2,15 +2,15 @@
 
 A professional console-based application demonstrating a robust 3-tier architecture, implemented in C# (.NET 8). This project simulates an online store where users can browse products, register, and place orders.
 
-## What You Will Learn (Learning Outcomes)
+## Learning Outcomes & Skills Demonstrated
 
-This project is not just a simple virtual store, but a solid demonstration of how enterprise-level applications are built (on a smaller scale). By studying and running this project, you will learn:
-- **Clean Architecture (3-Tier)**: How to properly separate data access logic (DAL), business logic (BLL), and the user interface (ConsoleApp).
-- **Dependency Injection (DI)**: How to decouple components using interfaces and configure an IoC Container (`Microsoft.Extensions.DependencyInjection`).
-- **Repository Pattern**: How to manage database entities in a centralized and highly testable manner.
-- **Entity Framework Core (In-Memory)**: Using an ORM to write LINQ queries instead of raw SQL, perfect for rapid prototyping and demonstrations.
-- **Unit Testing**: How to use xUnit and Moq to isolate and test the methods in the Business Logic Layer.
-- **Data Protection (Hashing)**: User passwords are never stored in plain text; they are transformed using SHA256 hashing algorithms.
+This project is a solid demonstration of how enterprise-level applications are built. Through building this project, I have gained practical experience with:
+- **Clean Architecture (3-Tier)**: Properly separating data access logic (DAL), business logic (BLL), and the user interface (ConsoleApp).
+- **Dependency Injection (DI)**: Decoupling components using interfaces and configuring an IoC Container (`Microsoft.Extensions.DependencyInjection`).
+- **Repository Pattern**: Managing database entities in a centralized and highly testable manner.
+- **Entity Framework Core (In-Memory)**: Using an ORM to write LINQ queries instead of raw SQL.
+- **Unit Testing**: Using xUnit and Moq to isolate and test methods in the Business Logic Layer.
+- **Data Protection (Hashing)**: Ensuring user passwords are not stored in plain text by transforming them using SHA256 hashing algorithms.
 
 ---
 
